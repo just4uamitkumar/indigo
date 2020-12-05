@@ -6,16 +6,42 @@ header {
     background: $primeColor;
     background: linear-gradient(90deg, rgba(236, 17, 101, 1) 0%, rgba(174, 39, 95, 1) 38%, rgba(174, 39, 95, 1) 100%);
     padding: 0.5rem 0;
+    .container{
+        @include flexCont;
 
-    .logo {
-        font-family: 'Segoe Script', Arial, sans-serif;
-        font-weight: 700;
-        font-size: 3.3rem;
-
-        a {
-            color: $bodyBG;
+        .logo {
+            font-family: 'Segoe Script', Arial, sans-serif;
+            font-weight: 700;
+            font-size: 3.3rem;
+    
+            a {
+                color: $bodyBG;
+            }
+        }
+    
+        nav{
+            ul{
+                display: flex;
+                li{
+                    margin: 0 0.5rem;
+                    a{
+                        display: block;
+                        padding: 0.5rem;
+                        color: $bodyBG;
+                        transition: color ease 0.5s;
+                        &:hover{
+                            color:$tabBorder;
+                        }
+                        &.active{
+                            color: $activeNav;
+                        }
+                    }
+                }
+            }
         }
     }
+
+    
 }
 
 /*----| Footer |----- */
@@ -24,8 +50,7 @@ footer {
     padding: 2.5rem 0;
 
     .container {
-        display: flex;
-        justify-content: space-between;
+        @include flexCont;
 
         .copyright {
             font-family: 'Futura BT Light', sans-serif;
@@ -102,7 +127,6 @@ footer {
                 font-family: 'Futura BT Medium';
 
                 h4 {
-                    font-size: 1.3rem;
                     padding: 0 0 0.5rem;
                 }
 
@@ -130,8 +154,7 @@ footer {
             h2 {
                 color: $bodyBG;
                 padding: 2rem;
-                font-family: 'Futura BT Bold';
-                font-size: 1.8rem;
+                font-family: 'Futura BT Bold';               
             }
         }
 
@@ -211,6 +234,7 @@ footer {
 .greyBox {
     background-color: $secondColor;
     padding: 2rem 0 0;
+    margin-bottom: 3rem;
 
     p {
         font-size: 1.4rem;
@@ -280,15 +304,28 @@ footer {
 }
 
 /*----| pageContent | ------*/
+main{
+    height: calc(100vh - 176px)
+}
 .pageContent {
-    padding: 2rem 0;
     overflow: hidden;
+    .pageHeader{
+        background: $trBG;
+        padding: 1.2rem 0;
+        box-shadow: 0 0 1px $primeColor;
+        margin: 0 0 2rem;
+        .container{
+            @include flexCont;            
+            p{font-size: 1.3rem;}
+            
+        }
+        
+    }
 
     .tabItem {
         display: none;
 
-        h3 {
-            font-size: 1.3rem;
+        h3 {           
             padding: 0 0 1rem;
         }
 
@@ -394,8 +431,7 @@ footer {
         padding: 1rem;
 
         h4 {
-            color: $primeText;
-            font-size: 1.3rem;
+            color: $primeText;           
             font-family: 'Futura BT Bold';
         }
 

@@ -46,7 +46,7 @@ const Home = () => {
 
             <Banner />
 
-            <div className="main">
+            <main>
                 <section className="greyBox">
                     <div className="container">
                         <p>Travel smart with our Multi-Currency Forex card and you could be travelling with a brand new iPad Mini! Just be the highest loader for the day and get a brand new iPad Mini absolutely free! There’s an iPad Mini to be taken away every day.
@@ -123,7 +123,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </main>
         </>
     )
 }
