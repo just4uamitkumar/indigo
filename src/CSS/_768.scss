@@ -23,6 +23,9 @@ header {
                         display: flex;
                         flex-direction: column;
                         align-items: center;
+                        svg{
+                            padding: 0 0 0.5rem;
+                        }
                     }
                 }
             }
@@ -78,7 +81,7 @@ header {
 
 /*----| pageContent | ------*/
 main {
-    height: calc(100vh - 193px);
+    height: calc(100vh - 200px);
 }
 
 
