@@ -18,8 +18,8 @@ const Modal = (props) => {
                         Close
                     </button>
                 </div>
-            </div> 
-        </div>      
+            </div>
+        </div>
     );
 }
 

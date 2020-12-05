@@ -1,50 +1,57 @@
 /*-----| HTML, Body |-----*/
-html{font-size: 12px; }
-.container{ width: 96%;}
+html {
+    font-size: 12px;
+}
+
+.container {
+    width: 96%;
+}
 
 /*----| Header |----- */
-header{
-    .logo{
+header {
+    .logo {
         font-size: 2.8rem;
     }
 }
 
 /*----| Banner |----- */
-.bannerWrap{
-    .banner{
-        .advtSection{
+.bannerWrap {
+    .banner {
+        .advtSection {
             width: 40%;
             margin: 5rem auto;
-            float:none;
-            .icon{
+            float: none;
+
+            .icon {
                 width: 54px;
                 height: 34px;
                 padding: 0.5rem 0 0;
-                span{
+
+                span {
                     font-size: 0.7rem;
                     left: 45%;
                     top: 24%;
                 }
             }
-        }    
+        }
     }
 
-    .bannerBottom{
+    .bannerBottom {
         flex-direction: column;
-       
-        .titleSection{
+
+        .titleSection {
             width: 100%;
             justify-content: center;
         }
 
-        .formWrap{
-            width: 100%;          
+        .formWrap {
+            width: 100%;
 
-            form{
+            form {
                 padding: 1rem;
-                width: calc(100% - 2rem);                
-                
-                button{
+                width: calc(100% - 2rem);
+
+                button {
                     right: 2.2rem;
                 }
             }
@@ -54,8 +61,8 @@ header{
 
 
 /*----| Modal | ------*/
-.modal{
-    &.modal-sm{       
-        width:350px;
+.modal {
+    &.modal-sm {
+        width: 350px;
     }
 }
