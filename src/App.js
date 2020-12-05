@@ -1,5 +1,5 @@
 import './CSS/App.scss';
-import {BrowserRouter as Router, Switch, Route, useHistory} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from './Components/Shared/Header';
 import Footer from './Components/Shared/Footer';
 import Home from './Components/Home/Index';

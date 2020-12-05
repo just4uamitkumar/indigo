@@ -88,7 +88,7 @@ footer {
 
 /*----| pageContent | ------*/
 main{
-    height: calc(100vh - 261px)
+    min-height: calc(100vh - 261px)
 }
 
 /*----| Table | ------*/

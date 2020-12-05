@@ -306,8 +306,9 @@ footer {
 
 /*----| pageContent | ------*/
 main{
-    height: calc(100vh - 176px)
+    min-height: calc(100vh - 182px)
 }
+
 .pageContent {
     overflow: hidden;
     .pageHeader{
@@ -381,6 +382,7 @@ main{
 .tableResponsive {
     width: 100%;
     overflow-x: auto;
+    padding: 0 0 2rem;
 
     .table {
         width: 100%;
@@ -397,6 +399,7 @@ main{
 
             td {
                 padding: 0.5rem;
+                font-size: 1.2rem;
 
                 &:last-child {
                     white-space: nowrap;
