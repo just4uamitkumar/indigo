@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, withRouter} from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 
 const Header = () => {
     const logo = 'LOGO'
@@ -10,7 +10,7 @@ const Header = () => {
                     <Link to="/">{logo}</Link>
                 </div>
             </div>
-        </header>        
+        </header>
     );
 }
 

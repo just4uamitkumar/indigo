@@ -1,17 +1,22 @@
 /*-----| HTML, Body |-----*/
-html{font-size: 13px; }
-.container{ width: 90%;}
+html {
+    font-size: 13px;
+}
+
+.container {
+    width: 90%;
+}
 
 /*-----| Buttons |-----*/
-.btn{
+.btn {
     font-size: 0.9rem;
     padding: 0.4rem 0.8rem;
 }
 
 /*----| Banner |----- */
-.bannerWrap{
-    .banner{
-        .advtSection{
+.bannerWrap {
+    .banner {
+        .advtSection {
             margin: 8.5rem 0;
         }
     }
