@@ -15,7 +15,7 @@ html {
   font-size: 14px;
   color: $primeText;
   line-height: 1.3;
-  font-family: "Futura BT", sans-serif
+  font-family: "Futura BT", sans-serif;
 }
 
 .container {
@@ -64,6 +64,8 @@ button:focus {
   bottom: 0;
   right: 0;
 }
+
+p{margin-bottom: 1rem;}
 
 
 
@@ -169,4 +171,30 @@ select:focus {
       width: auto;
     }
   }
+}
+
+
+/*----| Headings | ------*/
+h1{
+  font-size: 2.5rem;
+}
+
+h2{
+  font-size: 1.8rem;
+}
+
+h3{
+  font-size: 1.3rem;
+}
+
+h4{
+  font-size: 1.3rem;
+}
+
+
+/*----| Mixins | ------*/
+@mixin flexCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
