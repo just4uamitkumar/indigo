@@ -1,0 +1,1 @@
+export const Buy_Hotel = 'Buy_Hotel'

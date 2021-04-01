@@ -1,0 +1,15 @@
+[
+    {"path":"/", "name":"First Link"},
+    {"path":"/second", "name":"Second Link"},
+    {"path":"/third", "name":"Third Link"},
+    {"path":"#", "name":"Fourth Link", "dropDown":[
+      {"path":"submenu1", "name":"Sub Menu 1"},
+      {"path":"submenu2", "name":"Sub Menu 2"}
+    ]},
+    {"path":"/fifth", "name":"Firfth Link"},
+    {"path":"#", "name":"Sixth Link", "dropDown":[
+      {"path":"submenu3", "name":"Sub Menu 3"},
+      {"path":"submenu4", "name":"Sub Menu 4"}
+    ]},
+    {"path":"/seventh", "name":"Firfth Link"}
+  ]
