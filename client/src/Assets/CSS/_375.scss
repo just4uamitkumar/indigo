@@ -1,0 +1,50 @@
+/*-----| HTML, Body |-----*/
+html {
+    font-size: 10px;
+}
+
+/*----| Banner |----- */
+.bannerWrap {
+    .banner {
+        .advtSection {
+            width: 82%;
+
+            .icon {
+                height: 27px;
+                padding: 0.3rem 0 0;
+
+                span {
+                    top: 21%;
+                }
+            }
+        }
+    }
+
+    .bannerBottom {
+        .formWrap {
+            form {
+                button {
+                    right: 2.1rem;
+                }
+            }
+        }
+    }
+}
+
+/*----| GreyBox | ------*/
+.greyBox {
+    .tabLiks {
+        ul {
+            li {
+                button {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+/*----| pageContent | ------*/
+main{
+    min-height: calc(100vh - 218px)
+}

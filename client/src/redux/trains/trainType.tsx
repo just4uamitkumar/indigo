@@ -1,0 +1,1 @@
+export const Buy_Train = 'Buy_Train'

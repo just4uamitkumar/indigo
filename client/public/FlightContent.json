@@ -1,0 +1,23 @@
+[
+    { "id":1, "imgUrl":"../../Assets/images/Indigo.jpg", "name":"Indigo",
+      "author":"Nathan Lee Allen", 
+    "descrip":"IndiGo is India’s largest passenger airline with a market share of 53.9% as of December, 2020. We primarily operate in India’s domestic air travel market as a low-cost carrier with focus on our three pillars – offering low fares, being on-time and delivering a courteous and hassle-free experience. IndiGo has become synonymous with being on-time. "},
+
+    { "id":2, "imgUrl":"/Assets/images/GoAir.jpg", "name":"Go Air",
+    "author":"Seth Miranda", 
+    "descrip":"Go Airlines (India) Ltd. is an aviation foray of the Wadia Group. It operates under the brand GoAir. In November 2005, GoAir launched its operations as a low-fare carrier to commoditize air travel and offer airline seats at a marginal premium to train fares across India. The airline currently operates."},
+
+    { "id":3, "imgUrl":"../Assets/images/spicejet.jpg", "name":"Spice Jet",
+    "author":"Alex Stead", 
+    "descrip":"SpiceJet’s mission is to become India’s preferred low-cost airline, delivering the lowest air fares with the highest customer value, to price sensitive customers.We hope to fulfill everyone’s dream of flying! With India's economic and business growth, the percentage of traveling population is burgeoning.More and more Indians are traveling for both business and pleasure and everyone needs to save both time and money.SpiceJet's vision is to address that and ensure that flying is for everyone."},
+
+    { "id":4, "imgUrl":"vistara.jpg", "name":"Vistara",
+    "author":"Nathan Lee Allen", 
+    "descrip":"In 2013, two legendary brands, Tata Sons and Singapore Airlines, decided to fulfil a long-cherished shared dream to bring forth a distinguished flying experience to air travellers in India. With its strong historical ties with aviation, the Tata group had long wished to re-enter the aviation sector, after Tata Airlines was renamed Air India and eventually, nationalised. Both, the Tata group and Singapore Airlines were also firm believers in the growth potential of the Indian aviation sector and hence tried to enter the market in the past; first, in 1994 by setting up a joint venture to start an airline in India and then in 2000, teaming up to purchase stakes in Air India. However, after the lifting of foreign investment restrictions in 2012, the partners once again sought approval for a tie-up, which it obtained in October 2013. On November 5, 2013, Vistara’s holding company, TATA SIA Airlines Limited, was incorporated."},
+
+    { "id":5, "imgUrl":"AirIndia.jpg", "name":"Air India",
+      "author":"Nathan Lee Allen", 
+      "descrip":"From the time the very first aircraft took flight in India, till today, when Jumbos and Dreamliners rule the sky, Air India's Ground Handling Department always existed, albeit under different names. What started off as a section for Ground Handling under Air India Engineering, grew into a department called Ground Services Department with the induction B747 jumbo aircraft."}
+
+  ]
+   

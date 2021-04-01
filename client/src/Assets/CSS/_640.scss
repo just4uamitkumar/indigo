@@ -1,0 +1,40 @@
+/*----| Banner |----- */
+.bannerWrap {
+    .banner {
+        .advtSection {
+            width: 50%;
+        }
+    }
+
+    .bannerBottom {
+        .formWrap {
+            form {
+                .formGroup {
+                    flex-direction: column;
+
+                    .formElem {
+                        width: 96%;
+
+                        label {
+                            font-size: 1.2rem;
+                        }
+
+                        .react-datepicker-wrapper {
+                            width: 100%;
+
+                            input {
+                                background-position: 97% 46%;
+                            }
+                        }
+
+                        select {
+                            background-position: 97% 46%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
