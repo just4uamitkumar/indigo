@@ -17,7 +17,7 @@ const Festive = () => {
       })
       .then((data2) => {
         for (let i = 0; i < data2.length; i++) {
-          data2[i].isChecked = false;
+          data2[i].isChecked = true;
         }
         setFestiveList(data2);
       });

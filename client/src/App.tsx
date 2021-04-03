@@ -1,20 +1,25 @@
 import React, { useReducer, Suspense,  useEffect, createContext, useContext } from 'react';
 import './Assets/CSS/App.scss';
 import { BrowserRouter as Router, Switch, Route, useHistory } from 'react-router-dom';
-import { Provider, useSelector, useDispatch } from 'react-redux';
+import { Provider } from 'react-redux';
 import store from './redux/store';
 import Header from './Components/Shared/Header';
 import Footer from './Components/Shared/Footer';
 import Login from './Components/Login';
 import SignUp from './Components/Login/SignUp';
 import {initialState, user1Reducer} from './redux/user/userReducer';
+
 const Home = React.lazy(() => import('./Components/Home/Index'));
 const Trains = React.lazy(() => import('./Components/Trains'));
 const Bus = React.lazy(() => import('./Components/Bus'));
-const HomeStays = React.lazy(() => import('./Components/HomeStays'));
+const HomeStays = React.lazy(() => import('./Components/Tables/Places'));
 const Hotel = React.lazy(() => import('./Components/Hotel'));
 const Flight = React.lazy(() => import('./Components/Flight'));
 const Contact = React.lazy(() => import('./Components/Contact'));
+const Places = React.lazy(() => import('./Components/Tables/Places'));
+const Closure = React.lazy(() => import('./Components/Tables/Closure'));
+const LeftMenu = React.lazy(() => import('./Components/Tables/LeftMenu'));
+
 
 interface IContextProps {
   state: string;
@@ -38,6 +43,7 @@ const Routing = () => {
     }else{
       history.push('/Login')
     }
+    
   }, [])
 
   return (
@@ -52,6 +58,11 @@ const Routing = () => {
         <Route path="/Bus"> <Bus /></Route>
         <Route path="/Trains"> <Trains /></Route>
         <Route path="/Contact"><Contact /></Route>
+        <Route path="/Closure"><Closure /></Route>
+        <Route path="/Places"><Places /></Route>
+        <Route path="/LeftMenu"><LeftMenu /></Route>
+
+        
       </Suspense>
     </Switch>
   )
