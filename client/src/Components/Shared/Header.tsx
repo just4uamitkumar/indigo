@@ -1,8 +1,8 @@
 import React, {useState, useContext} from 'react'
 import { Link, NavLink, withRouter, useHistory } from 'react-router-dom';
 import {UserContext} from '../../App';
-import {FaAngleDown, FaAngleUp,  FaPlane,  FaHotel,  FaBed,  FaBus,  FaTrain, 
-  FaPhone, FaUser, FaPowerOff} from 'react-icons/fa';
+import {FaAngleDown, FaAngleUp,  FaPlane,  FaHotel,  FaBus,  FaTrain, 
+  FaPhone, FaUser,  FaTable} from 'react-icons/fa';
 
 
 const Header = () => {
@@ -20,11 +20,11 @@ const Header = () => {
   const [topLink, setTopLink] = useState<any[]>([
     { name: 'FLIGHTS', path: '/Flight', icon: <FaPlane />, hasMenu:false },
     { name: 'HOTELS', path: '/Hotel', icon: <FaHotel />, hasMenu:false },
-    { name: 'HOMESTAYS', path: '#', icon: <FaBed />, hasMenu:true,
+    { name: 'Tables', path: '#', icon: <FaTable />, hasMenu:true,
       isExpanded:false,
-      subMenu:[{'name':'HomeStays 1', path:'/HomeStays1'}, 
-          {'name':'HomeStays 2', path:'/HomeStays2'},
-          {'name':'HomeStays 3', path:'/HomeStays3'},
+      subMenu:[{'name':'Places', path:'/Places'}, 
+          {'name':'Closure', path:'/Closure'},
+          {'name':'LeftMenu', path:'/LeftMenu'},
           {'name':'HomeStays 4', path:'/HomeStays4'},
           {'name':'HomeStays 5', path:'/HomeStays5'}]
     },
