@@ -457,6 +457,35 @@ main{
 }
 
 
+/*----| Closure Page | ------*/
+.color{background: #dddddd; width: 104px; height: 28px; display: inline-block;
+    vertical-align: middle; border: 1px solid #a09f9f; margin-top: -4px;}
+.color + .btn{margin:0 0 0 2px;}
+
+
+.colorList{ background: #ececec; width: 80%;  padding: 3% 10% 3%;
+    margin: 0 auto;  display: flex;  flex-wrap: wrap;
+li{display: inline-block; width: 31.6%; margin: 1% 0;
+    button{display: block; border: 2px solid #40301B; width: 80%;
+        height: 50px;  transition: transform ease 0.5s;
+       margin:0 auto;
+        &.disable{opacity: 0.4; pointer-events: none;}
+    }
+}
+}
+
+/*------| Color Theme |-----*/
+[data-color="green"]{background-color: rgb(140, 197, 63) !important} 
+[data-color="red"]{background-color: rgb(236, 28, 36) !important}
+[data-color="dodgerBlue"]{background-color: rgb(30, 144, 255) !important}
+[data-color="pink"]{background-color: rgb(188, 30, 142) !important}
+[data-color="yellow"]{background-color: rgb(244, 237, 49) !important}
+[data-color="orange"]{background-color:rgb(251, 175, 64) !important}
+[data-color="slateBlue"]{background-color:rgb(106, 90, 205) !important}
+[data-color="violet"]{background-color:rgb(238, 130, 238) !important}
+[data-color="DarkBlue"]{background-color:rgb(0, 0, 139) !important}
+
+
 /*----| Modal | ------*/
 .modal {
     border-radius: 6px;
